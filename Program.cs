@@ -12,20 +12,20 @@ namespace Peliculas
           Peliculas p2 = new Peliculas();
 
           //
-          p1.Titulo=("parasitos");
-          p1.Año=2020;
+          p1.setTitulo("parasitos");
+          p1.setAño(2020);
 
           //
-          p2.Titulo=("EL IRLANDÉS");
-          p2.Año=2020;
+          p2.setTitulo("EL IRLANDÉS");
+          p2.setAño(2020);
 
           
           //imprimir,
-          Console.WriteLine("Titulo: "+p1.Titulo);
-          Console.WriteLine("Año:"+p1.Año);
+          Console.WriteLine("Titulo: "+p1.getTitulo());
+          Console.WriteLine("Año:"+p1.getAño());
 
-          Console.WriteLine("Titulo: "+p2.Titulo);
-          Console.WriteLine("Año:"+p2.Año);
+          Console.WriteLine("Titulo: "+p2.getTitulo());
+          Console.WriteLine("Año:"+p2.getAño());
           
 
 
@@ -36,8 +36,32 @@ namespace Peliculas
     class Peliculas
     {
         //crear atributos en publico
-        public string Titulo,Pais,Director;
-        public int Año;
+        private string Titulo,Pais,Director;
+        private int Año;
+        
+        //creas los metodos
+        public int getAño()
+        {
+            return Año;
+        }
+
+        public void setAño(int n)
+        {
+            Año=n;
+
+        } 
+        public string getTitulo()
+        {
+            return Titulo;
+        }
+
+        public void setTitulo(string m)
+        {
+            Titulo=m;
+        }
+
+
+
 
         
 
