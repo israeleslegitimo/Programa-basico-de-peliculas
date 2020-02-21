@@ -2,4 +2,4 @@
 
 # Peliculas
 # <h1>.....<h1>
-[Activcidad](/https://github.com/israeleslegitimo/Programa-basico-de-peliculas/blob/master/Program.cs)
+[Activcidad](https://github.com/israeleslegitimo/Programa-basico-de-peliculas/blob/master/Program.cs)
