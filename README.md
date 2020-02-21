@@ -2,4 +2,4 @@
 
 ## Peliculas
 <h1>........................................................................................................<h1>
-[Actividad 2](https://github.com/israeleslegitimo/Programa-basico-de-peliculas/blob/master/Program.cs)
+[Actividad2](./PROGRAMA-BASICO-DE-PELICULAS/Program.cs)
