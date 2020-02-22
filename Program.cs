@@ -14,18 +14,20 @@ namespace Peliculas
           //
           p1.setTitulo("parasitos");
           p1.setAño(2020);
+          p1.imprimir();
 
           //
           p2.setTitulo("EL IRLANDÉS");
           p2.setAño(2020);
+          p2.imprimir();
 
           
           //imprimir,
-          Console.WriteLine("Titulo: "+p1.getTitulo());
-          Console.WriteLine("Año:"+p1.getAño());
+          //Console.WriteLine("Titulo: "+p1.getTitulo());
+          //Console.WriteLine("Año:"+p1.getAño());
 
-          Console.WriteLine("Titulo: "+p2.getTitulo());
-          Console.WriteLine("Año:"+p2.getAño());
+          //Console.WriteLine("Titulo: "+p2.getTitulo());
+          //Console.WriteLine("Año:"+p2.getAño());
           
 
 
@@ -59,11 +61,14 @@ namespace Peliculas
         {
             Titulo=m;
         }
+        //
+        public void imprimir()
+        {
+            Console.WriteLine( "Titulo"+Titulo);
+            Console.WriteLine("Año:"+Año);
 
-
-
-
+        }
         
 
-    }
+     }
 }
